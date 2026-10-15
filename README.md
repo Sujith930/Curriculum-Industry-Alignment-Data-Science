@@ -47,10 +47,10 @@ The datasets were processed and standardized to support comparative analysis acr
 
 ## 🔎 Key Results
 
-- **33.18% Overall Alignment:** Average prevalence alignment across 47 comparable skills.
-- **30.86% Strict Coverage:** 25 of 81 industry skills had direct curriculum representation.
-- **58.02% Broad Coverage:** Coverage increased when partial or conceptual matches were included.
-- **14.29% Emerging-Technology Alignment:** 2 of 14 selected technologies had direct curriculum coverage.
+- **33.18% Overall Alignment:** Average prevalence alignment across 47 comparable skills—not the percentage of the curriculum that aligns with industry.
+- **30.86% Strict Coverage:** 25 of 81 industry skills have direct curriculum representation.
+- **58.02% Broad Coverage:** 47 of 81 industry skills have direct, partial or conceptual representation under your matching framework.
+- **14.29% Emerging-Technology Alignment:** 2 of the 14 selected technologies have direct curriculum coverage; this is not a measure of every emerging technology.
 
 These results describe the selected datasets and matching framework; they should not be generalized to all Data Science roles or university curricula.
 
@@ -59,6 +59,12 @@ These results describe the selected datasets and matching framework; they should
 - 📊 **Excel Computational Workbook:** https://docs.google.com/spreadsheets/d/1jY8MSRrhxZnNyCmRvmQ8DTiCvDfA0bdZ/edit?usp=drive_link&ouid=103780177320944982157&rtpof=true&sd=true
 - 📄 **Research Report:** https://drive.google.com/file/d/1gL2k0UGF1CrohRAFXlMdfC8IJuwz8lbC/view?usp=drive_link
 - 📽️ **Research Presentation:** https://drive.google.com/file/d/1-uz07d7LB2gKe6785CoGwc8J_95kgKvn/view?usp=drive_link
+
+## 🧭 How to Explore This Project
+
+1. **Start with the Research Report** — Understand the research objectives, methodology, comparative analysis, and conclusions.
+2. **Explore the Excel Computational Workbook** — Review the calculations and outputs for the eight analyses.
+3. **View the Research Presentation** — Get a concise overview of the study, key results, and major observations.
 
 ## 💡 Skills Demonstrated
 
@@ -71,14 +77,17 @@ These results describe the selected datasets and matching framework; they should
 
 ## ⚠️ Limitations
 
-The analysis is based on 130 industry job descriptions and 80 university curricula. Skill matching includes conceptual judgments, and the 14 emerging technologies form a focused rather than exhaustive subset. The chi-square results are interpreted cautiously because 40 of 42 expected cells were below 5.
+- The analysis is based on 130 industry job descriptions and 80 university curricula.
+- Skill matching includes conceptual judgments, which may influence coverage results.
+- The 14 emerging technologies form a focused, not exhaustive, subset of the industry skill inventory.
+- The chi-square analysis is exploratory. Since 40 of 42 expected cell frequencies are below 5, the usual expected-frequency condition for the Pearson chi-square approximation is substantially violated. The p-value should not be treated as definitive evidence, and Cramér’s V should be interpreted cautiously.
+- The findings reflect the selected datasets and methodology and do not establish causal relationships or represent every Data Science job or university curriculum.
 
 ## 👥 Contributors
 
-- Sujith Kodakandla
-- Chavi Lahoti
+- **Research contributors:** Sujith Kodakandla and Chavi Lahoti
+- **Repository maintainer:** Sujith Kodakandla
 
 ## 📄 Research Status
 
 The internship research work, computational workbook, report, and presentation have been completed. The research paper has not yet been published.
-
